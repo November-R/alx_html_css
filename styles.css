@@ -1,0 +1,73 @@
+header{
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h2{
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+article{
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #333;
+    gap: 20px;
+    margin: auto;
+}
+
+article img{
+    max-width: 100%;
+    display: block;
+}
+
+aside{
+    float: right;
+    margin-left: 20px;
+    border-left: 1px solid #ddd;
+    line-height: 1.6;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+    text-aligh: center;
+    font-size: medium;
+}
+
+#body-container{
+    display: flex;
+    flex-direction: column;;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+#article-container{
+    flex: 2;
+    overflow-y: auto;
+}
+
+#aside-container{
+    flex: 1;
+    overflow:auto;
+}
