@@ -1,24 +1,253 @@
 body{
     background-color: #ffffff;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 16px;
-    padding-bottom: 16px;
     width: 1440px;
     height: 3718px;
 }
-
+ 
 .header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
     color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-ul li{
-    list-style: none;
+.header-container h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+} 
+
+
+.header-container ul li{
+    display: inline-flex;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: right;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+
+
+.main-container{
+    align-items: center;
+    display: block;
+    background-color: #ffffff;
+    background-image: url();
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+}
+
+.main-container img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.instructor-info h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin: auto;
+}
+
+.instructor-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-button{
+    background-color: #C271FF;
+    color: #ffffff;
+    font-size: medium;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.testimonials{
+    background-color: #C271FF;
+    width: 1440px;
+    height: 392px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: medium;
+    color: #000000;
+}
+
+.testimonials img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
     display: inline;
-    margin: 0px, 20px, 0px, 0px;
 }
 
+.tutorials{
+    background-color: #ffffff;
+    width: 1228px;
+    height: 450px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: center;
+    padding: 40px;
+
+}
+.video img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.instructor-profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.free-membership h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin: auto;
+
+}
+
+.free-membership{
+    color: #ffffff;
+    background-color: #071629;
+    width: 1440px;
+    height: 502px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: center;
+}
+
+.membership-plans{
+    display: inline-block;
+    margin: 30px;
+    padding: 30px;
+    gap: 15px;
+}
+
+#register-button{
+    background-color: #C271FF;
+    color: #ffffff;
+    font-size: medium;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.faq{
+    background-color: #ffffff;
+    width: 920px;
+    height: 707px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: #333;
+    text-align: center;
+
+}
+
+.row-block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.item-block{
+    display: block;
+    width: 400px;
+    text-align: left;
+    margin: 10px;
+}
+
+
+.footer-contents{
+    background-color: #071629;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+    width: 1440px;
+    height: 249px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.brand-tags{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
+    gap: 10px;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.footer-contents i{
+    margin: 10px;
+
+}
+
+
+.footer-contents img{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.footer-contents p{
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
