@@ -22,7 +22,7 @@ body{
 
 
 .header-container ul li{
-    display: inline-flex;
+    display: flex;
     text-align: right;
     align-items: flex-end;
     justify-content: right;
@@ -30,7 +30,7 @@ body{
     color: #ffffff;
     font-size: 24px;
     cursor: pointer;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 
